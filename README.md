@@ -5,7 +5,7 @@ Three Ipython notebook are provided;
 * AttentionalDecoderModel.ipynb
 * Result_plots.ipynb
 
-The project is inspired by the [work](https://arxiv.org/abs/1704.04368) of Abigail See et. al. 
+The project is inspired by the work of [Abigail See et. al.](https://arxiv.org/abs/1704.04368)
 
 ## Data
 The dataset used for testing the model was generated using thePython librarynum2words.  The input vector of the datatsetconsist of a sequence of string numbers and the target vec-tor consist of a sequence of numerals (word numbers).  Twodataset was generated from this approach; one with order se-quences and the target being the continuation of the sequenceand the second being random sequences and the target beingthe numeral version of the input. The length of the input andtarget sequence is similar but the lengths vary for each inputtarget  pair  up  to  a  defined  maximum  length. 
